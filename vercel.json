@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   {
     "rewrites": [
       {
@@ -6,3 +7,20 @@
       }
     ]
   }
+=======
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
+>>>>>>> 1822810 (first commit)
